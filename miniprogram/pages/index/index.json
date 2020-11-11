@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "tabbar":"/components/common/tabbar/tabbar",
+    "banner-swiper":"/components/index/bannerSwiper/bannerSwiper",
+    "index-recommend1":"/components/index/indexRecommend1/indexRecommend",
+    "index-recommend2":"/components/index/indexRecommend2/indexRecommend"
+
+  }
+}

@@ -1,0 +1,20 @@
+<!--components/index/indexRecommend2/indexRecommend.wxml-->
+<swiper
+ indicator-dots="{{false}}"
+ autoplay="{{false}}"
+ previous-margin="15rpx"
+ next-margin="15rpx"
+>
+	<swiper-item
+	 class=""
+	 item-id=""
+	 wx:for="{{swiperList}}"
+	 wx:key="index"
+	>
+		<image src="{{item.imgUrl}}" />
+		<view class="text1">{{item.title}}</view>
+		<view class="text2">{{item.desc}}</view>
+	</swiper-item>
+
+</swiper>
+

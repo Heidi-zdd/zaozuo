@@ -1,0 +1,28 @@
+<!--miniprogram/pages/index/index.wxml-->
+<!-- 顶部TABBAR -->
+<tabbar></tabbar>
+
+<!-- banner-swiper部分 -->
+<banner-swiper></banner-swiper>
+
+<!-- 情绪美术馆 -->
+<view class="recom1">
+	<view class="title1">情绪美术馆</view>
+	<view class="title2">描摹情感丰沛的都市之家</view>
+	<index-recommend1></index-recommend1>
+</view>
+
+<!-- 造作超值好物推荐 -->
+<view class="recom2">
+	<view class="title1 text-left">造作超值好物推荐</view>
+	<view class="title2 text-left">6件超值单品，3组空间组搭，点亮全家</view>
+	<index-recommend2></index-recommend2>
+</view>
+
+<!-- 造作超值好物推荐 -->
+<view class="recom2">
+	<view class="title1 text-left">造作超值好物推荐</view>
+	<view class="title2 text-left">6件超值单品，3组空间组搭，点亮全家</view>
+	<index-recommend2></index-recommend2>
+</view>
+

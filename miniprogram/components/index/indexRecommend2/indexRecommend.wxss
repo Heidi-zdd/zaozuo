@@ -1,0 +1,16 @@
+/* components/index/indexRecommend2/indexRecommend.wxss */
+swiper{
+  margin-top:20rpx;
+}
+swiper image{
+  width:660rpx;
+  height:346rpx;
+}
+.text1{
+  font-size:26rpx;
+  padding-top:10rpx;
+}
+.text2{
+  font-size:20rpx;
+  padding-top:5rpx;
+}

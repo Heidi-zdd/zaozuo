@@ -1,0 +1,24 @@
+/* miniprogram/pages/index/index.wxss */
+.recom1{
+  margin-top:70rpx;
+}
+.title1{
+  text-align:center;
+  font-size:30rpx;
+  font-weight:600;
+}
+.title2{
+  text-align:center;
+  font-size:20rpx;
+  font-weight:600;
+  color:#a0a0a0;
+  padding-top:15rpx;
+}
+
+.recom2{
+  margin-top:80rpx;
+  padding: 0 25rpx;
+}
+.text-left{
+  text-align:left;
+}

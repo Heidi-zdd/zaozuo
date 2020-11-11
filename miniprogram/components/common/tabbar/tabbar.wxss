@@ -1,0 +1,40 @@
+/* components/tabbar/tabbar.wxss */
+.tabbar{
+  width:100%;
+  height:90rpx;
+  font-size:22rpx;
+  color:'#707070';
+  line-height:30rpx;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.tabbar .logo{
+  width:160rpx;
+  height:90rpx;
+  margin-left:20rpx;
+  background-image:url('//img.zaozuo.com/e566f2502a9b33ccfaf6341e138b06b0');
+  background-repeat: no-repeat;
+  background-size:100% auto;
+  background-position: center;
+}
+.tabbar .item-wrap{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-right:20rpx;
+}
+.tabbar .tabbar-item{
+  width:96rpx;
+  height:30rpx;
+  text-align:center;
+}
+.tabbar .active::after{
+  display:block;
+  content:'';
+  width:100%;
+  height:5rpx;
+  background-color:#000;
+  position: relative;
+  top:10rpx;
+}

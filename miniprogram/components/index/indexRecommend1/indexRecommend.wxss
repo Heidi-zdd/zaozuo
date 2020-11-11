@@ -1,0 +1,12 @@
+/* components/index/indexRecommend/indexRecommend.wxss */
+.recommend1{
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+}
+.recommend1 image{
+  width:calc((100vw - 75rpx) / 2);
+  height:413rpx;
+  margin-top:25rpx; 
+  margin-left:25rpx;
+} 

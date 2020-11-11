@@ -1,0 +1,9 @@
+/* components/index/bannerSwiper.wxss */
+.banner{
+  width:100vw;
+  height:420rpx;
+  background-image:url(https://img02.zaozuo.com/682fb58b5d53ae13b60f36d84b97addd);
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
